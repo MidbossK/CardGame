@@ -336,6 +336,143 @@ namespace FateAuction.Data
 
                 };
 
+                var TarotSeed = new TarotCards[] {
+
+                    new Tarot {
+                        TarotName = "The Magician",
+                        PointValue = 1,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The High Priestess",
+                        PointValue = 2,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Empress",
+                        PointValue = 3,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Emperor",
+                        PointValue = 4,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Hierophant",
+                        PointValue = 5,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Lovers",
+                        PointValue = 6,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Chariot",
+                        PointValue = 7,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "Strength",
+                        PointValue = 8,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Hermit",
+                        PointValue = 9,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "Wheel of Fortune",
+                        PointValue = 10,
+                        PictureURL = ,
+                    },
+                     new Tarot {
+                        TarotName = "Justice",
+                        PointValue = 11,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Hanged Man",
+                        PointValue = 12,
+                        PictureURL = ,
+                    },
+
+
+                    new Tarot {
+                        TarotName = "Death",
+                        PointValue = 13,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "Temperance",
+                        PointValue = 14,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Devil",
+                        PointValue = 15,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Tower",
+                        PointValue = 16,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Star",
+                        PointValue = 17,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Moon",
+                        PointValue = 18,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Sun",
+                        PointValue = 19,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "Judgement",
+                        PointValue = 20,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The World",
+                        PointValue = 21,
+                        PictureURL = ,
+                    },
+
+                    new Tarot {
+                        TarotName = "The Fool",
+                        PointValue = 22,
+                        PictureURL = ,
+                    },
+
+                };
+
+
                 foreach (Cards i in Cards)
                 {
                     context.Cards.Add(i);
