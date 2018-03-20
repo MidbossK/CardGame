@@ -23,164 +23,324 @@ namespace FateAuction.Data
                 var CardsSeed = new Cards[]
                 {
                     new Cards {
-                         Card = "Two of Diamonds"},
+                         Card = "Two of Diamonds",
+                         PointValue = 2,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Three of Diamonds"},
+                         Card = "Three of Diamonds",
+                         PointValue = 3,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Four of Diamonds"},
+                         Card = "Four of Diamonds",
+                         PointValue = 4,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Five of Diamonds"},
+                         Card = "Five of Diamonds",
+                         PointValue = 5,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Six of Diamonds"},
+                         Card = "Six of Diamonds",
+                         PointValue = 6,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Seven of Diamonds"},
+                         Card = "Seven of Diamonds",
+                         PointValue = 7,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Eight of Diamonds"},
+                         Card = "Eight of Diamonds",
+                         PointValue = 8,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Nine of Diamonds"},
+                         Card = "Nine of Diamonds",
+                         PointValue = 9,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Ten of Diamonds"},
+                         Card = "Ten of Diamonds",
+                         PointValue = 10,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Jack of Diamonds"},
+                         Card = "Jack of Diamonds",
+                         PointValue = 11,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Queen of Diamonds"},
+                         Card = "Queen of Diamonds",
+                         PointValue = 12,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "King of Diamonds"},
+                         Card = "King of Diamonds",
+                         PointValue = 13,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Ace of Diamonds"},
+                         Card = "Ace of Diamonds",
+                         PointValue = 1,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Two of Clubs"},
+                         Card = "Two of Clubs",
+                         PointValue = 2,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Three of Clubs"},
+                         Card = "Three of Clubs",
+                         PointValue = 3,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Four of Clubs"},
+                         Card = "Four of Clubs",
+                         PointValue = 4,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Five of Clubs"},
+                         Card = "Five of Clubs",
+                         PointValue = 5,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Six of Clubs"},
+                         Card = "Six of Clubs",
+                         PointValue = 6,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Seven of Clubs"},
+                         Card = "Seven of Clubs",
+                         PointValue = 7,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Eight of Clubs"},
+                         Card = "Eight of Clubs",
+                         PointValue = 8,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Nine of Clubs"},
+                         Card = "Nine of Clubs",
+                         PointValue = 9,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Ten of Clubs"},
+                         Card = "Ten of Clubs",
+                         PointValue = 10,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Jack of Clubs"},
+                         Card = "Jack of Clubs",
+                         PointValue = 11,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Queen of Clubs"},
+                         Card = "Queen of Clubs",
+                         PointValue = 12,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "King of Clubs"},
+                         Card = "King of Clubs",
+                         PointValue = 13,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Ace of Clubs"},
+                         Card = "Ace of Clubs",
+                         PointValue = 1,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Two of Hearts"},
+                         Card = "Two of Hearts",
+                         PointValue = 2,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Three of Hearts"},
+                         Card = "Three of Hearts",
+                         PointValue = 3,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Four of Hearts"},
+                         Card = "Four of Hearts",
+                         PointValue = 4,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Five of Hearts"},
+                         Card = "Five of Hearts",
+                         PointValue = 5,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Six of Hearts"},
+                         Card = "Six of Hearts",
+                         PointValue = 6,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Seven of Hearts"},
+                         Card = "Seven of Hearts",
+                         PointValue = 7,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Eight of Hearts"},
+                         Card = "Eight of Hearts",
+                         PointValue = 8,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Nine of Hearts"},
+                         Card = "Nine of Hearts",
+                         PointValue = 9,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Ten of Hearts"},
+                         Card = "Ten of Hearts",
+                         PointValue = 10,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Jack of Hearts"},
+                         Card = "Jack of Hearts",
+                         PointValue = 11,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Queen of Hearts"},
+                         Card = "Queen of Hearts",
+                         PointValue = 12,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "King of Hearts"},
+                         Card = "King of Hearts",
+                         PointValue = 13,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                         Card = "Ace of Hearts"},
+                         Card = "Ace of Hearts",
+                         PointValue = 1,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Two of Spades"},
+                        Card = "Two of Spades",
+                         PointValue = 2,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Three of Spades"},
+                        Card = "Three of Spades",
+                         PointValue = 3,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Four of Spades"},
+                        Card = "Four of Spades",
+                         PointValue = 4,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Five of Spades"},
+                        Card = "Five of Spades",
+                         PointValue = 5,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Six of Spades"},
+                        Card = "Six of Spades",
+                         PointValue = 6,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Seven of Spades"},
+                        Card = "Seven of Spades",
+                         PointValue = 7,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Eight of Spades"},
+                        Card = "Eight of Spades",
+                         PointValue = 8,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Nine of Spades"},
+                        Card = "Nine of Spades",
+                         PointValue = 9,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Ten of Spades"},
+                        Card = "Ten of Spades",
+                         PointValue = 10,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Jack of Spades"},
+                        Card = "Jack of Spades",
+                         PointValue = 11,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Queen of Spades"},
+                        Card = "Queen of Spades",
+                         PointValue = 12,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "King of Spades"},
+                        Card = "King of Spades",
+                         PointValue = 13,
+                         PictureURL = ,
+                    },
 
                     new Cards {
-                        Card = "Ace of Spades"},
-
-
+                        Card = "Ace of Spades",
+                         PointValue = 1,
+                         PictureURL = ,
+                    },
 
                 };
+
+                foreach (Cards i in Cards)
+                {
+                    context.Cards.Add(i);
+                }
+                context.SaveChanges();
             }
         }
     }   
