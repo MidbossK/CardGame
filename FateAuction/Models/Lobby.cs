@@ -10,5 +10,7 @@ namespace FateAuction.Models
     {
         [Key]
         public string LobbyID { get; set; }
+
+
     }
 }
