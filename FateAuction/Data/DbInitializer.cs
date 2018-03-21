@@ -10,9 +10,10 @@ namespace FateAuction.Data
 {
     public class DbInitializer
     {
-        public static void Initialize(IServiceProvider serviceProvider)
+        public static void Initialize(ApplicationDbContext context)
         {
-            using (var context = new ApplicationDbContext(serviceProvider.GetRequiredService<DbContextOptions<ApplicationDbContext>>()))
+            context.Database.EnsureCreated();
+
             {
                 
                 if (context.Cards.Any())
