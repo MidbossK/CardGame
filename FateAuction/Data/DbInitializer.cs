@@ -14,8 +14,14 @@ namespace FateAuction.Data
         {
             using (var context = new ApplicationDbContext(serviceProvider.GetRequiredService<DbContextOptions<ApplicationDbContext>>()))
             {
-                // Look for Appstatuses
+                
                 if (context.Cards.Any())
+                {
+                    return;   // DB has been seeded
+                }
+
+               
+                if (context.Tarot.Any())
                 {
                     return;   // DB has been seeded
                 }
@@ -336,7 +342,7 @@ namespace FateAuction.Data
 
                 };
 
-                var TarotSeed = new TarotCards[] {
+                var TarotSeed = new Tarot[] {
 
                     new Tarot {
                         TarotName = "The Magician",
@@ -473,10 +479,17 @@ namespace FateAuction.Data
                 };
 
 
-                foreach (Cards i in Cards)
+                foreach (Cards i in CardsSeed)
                 {
                     context.Cards.Add(i);
                 }
+
+                foreach (Tarot t in TarotSeed)
+                {
+                    context.Tarot.Add(t);
+                }
+
+
                 context.SaveChanges();
             }
         }

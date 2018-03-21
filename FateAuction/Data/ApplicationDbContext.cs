@@ -24,5 +24,6 @@ namespace FateAuction.Data
         }
 
         public DbSet<FateAuction.Models.Cards> Cards { get; set; }
+        public DbSet<FateAuction.Models.Tarot> Tarot { get; set; }
     }
 }
