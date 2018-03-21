@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
 using System;
 
-namespace FateAuction.Data.Migrations
+namespace FateAuction.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180319145016_InitialModels")]
-    partial class InitialModels
+    [Migration("20180321165955_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,9 +46,6 @@ namespace FateAuction.Data.Migrations
                     b.Property<string>("NormalizedUserName")
                         .HasMaxLength(256);
 
-                    b.Property<string>("Password")
-                        .IsRequired();
-
                     b.Property<string>("PasswordHash");
 
                     b.Property<string>("PhoneNumber");
@@ -62,9 +59,6 @@ namespace FateAuction.Data.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256);
 
-                    b.Property<string>("Username")
-                        .IsRequired();
-
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -76,6 +70,38 @@ namespace FateAuction.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+                });
+
+            modelBuilder.Entity("FateAuction.Models.Cards", b =>
+                {
+                    b.Property<int>("CardID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Card");
+
+                    b.Property<string>("PictureURL");
+
+                    b.Property<int>("PointValue");
+
+                    b.HasKey("CardID");
+
+                    b.ToTable("Cards");
+                });
+
+            modelBuilder.Entity("FateAuction.Models.Tarot", b =>
+                {
+                    b.Property<int>("TarotID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("PictureURL");
+
+                    b.Property<int>("PointValue");
+
+                    b.Property<string>("TarotName");
+
+                    b.HasKey("TarotID");
+
+                    b.ToTable("Tarot");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
