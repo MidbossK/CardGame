@@ -10,8 +10,13 @@ let p2Hand = []
 let p1Field = []
 let p2Field = []
 
-//Discard array: Any used player cards ---
-let playerDiscard = []
+//Discard array: Any used player cards: Playing Field ---> DiscardPile
+let p1DiscardPile = []
+let p2DiscardPile = []
+
+//Tarots that were bought to move to players score array: Auction Market ---> Score Pile
+let p1ScorePile =[]
+let p2ScorePile = []
 
 //Tarot Deck: Database ---> Tarot Deck
 let tarotDeck = []
@@ -19,8 +24,6 @@ let tarotDeck = []
 //Tarot Auction Card: Auction Deck ---> Auction Market
 let auctionMarket = []
 
-//Tarots that were bought to move to players score array: Auction Market ---> Score Pile
-let scorePile =[]
 
 
 //Select random card from the player's deck
